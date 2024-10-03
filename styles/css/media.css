@@ -4,17 +4,76 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
-}
-
 ul, ol {
   list-style: none;
 }
 
 .container {
-  width: 100%;
   max-width: 1990px;
   margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  gap: 50px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+header a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  gap: 50px;
+}
+header .header-content {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+section .jkhsfkjhfskj {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+section .jkhsfkjhfskj audio {
+  width: 400px;
+}
+section .jkhsfkjhfskj h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+}
+footer p {
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=media.css.map */

@@ -18,3 +18,117 @@ ul, ol{
     max-width: 1990px;
     margin: 0 auto;
 }
+header{
+    nav{
+        background-color: #000;
+        width: 100%;
+    }
+    .nav-text{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding: 20px;
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            font-size: 16px;
+            transition:  1s;
+          &:hover{
+            color: blue;
+          }
+        }
+    }
+    .header-content{
+        text-align: center;
+        background-color: blue;
+        padding: 40px ;
+        h1{
+            color: white;
+            margin-bottom: 20px;
+        }
+        p{
+            color: white;
+            margin-bottom: 20px;
+        }
+    }
+}
+main {
+    text-align: center;
+    align-items: center;
+   
+    justify-content: center;
+    h1{
+        text-align: center;
+        font-size: 36px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    p{
+        text-align: center;
+        font-size: 26px;
+        
+        margin-bottom: 20px;
+    }
+    Iframe {
+        max-width: 800px;
+        width: 80%;
+        margin: 0 auto;
+        border: 3px solid #007bff;
+        height: 400px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+    section {
+        h2{
+            text-align: center;
+            font-size: 36px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: center;
+            font-size: 26px;
+            
+            margin-bottom: 20px;
+        }
+        margin-bottom: 80px;
+      .color-box {
+        padding: 20px;
+        color: white;
+        margin: 10px auto;
+        width: 80%;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .rgb {
+        background-color: rgb(70, 130, 180);
+      }
+  
+      .rgba {
+          background-color: rgba(70, 130, 180, 0.7);
+      }
+      
+      .hex {
+          background-color: #4682b4;
+      }
+      
+      
+    }
+  
+    
+  }
+  footer{
+    background-color: #000;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    p{
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+}

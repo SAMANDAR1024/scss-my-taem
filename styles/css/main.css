@@ -4,17 +4,83 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  display: inline-block;
-}
-
-ul, ol {
-  list-style: none;
-}
-
 .container {
   width: 100%;
   max-width: 1990px;
   margin: 0 auto;
+}
+
+header nav {
+  background-color: #000;
+  width: 100%;
+}
+header .nav-text {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+header .nav-text a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  transition: 1s;
+}
+header .nav-text a:hover {
+  color: blue;
+}
+header .header-content {
+  text-align: center;
+  background-color: blue;
+  padding: 40px;
+}
+header .header-content h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+header .header-content p {
+  color: white;
+  margin-bottom: 20px;
+}
+
+main section {
+  text-align: center;
+  margin-top: 40px;
+}
+main section h2 {
+  margin-bottom: 20px;
+}
+main section p {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 20px;
+}
+main .sec-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+main .sec-img img {
+  width: 400px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+main .sec-img img:hover {
+  scale: 1.1;
+}
+
+footer {
+  background-color: #000;
+  margin-top: 50px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  color: white;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
